@@ -4,3 +4,14 @@ React.js
 
 * Build modern user interfaces
 * Used by Twitter, airbnb, Netflix, PayPal
+
+* JS, ES6, npm
+
+* is a JavaScript Library
+* created at Facebook, open-sourced in 2013
+
+* React Native
+
+* reactjs.org
+
+* install React Developer Tools - for Google Chrome
