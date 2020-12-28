@@ -1,0 +1,6 @@
+React.js
+-------------------------------------------------------------------------------
+(React.js Essential Training - Eve Porcello)
+
+* Build modern user interfaces
+* Used by Twitter, airbnb, Netflix, PayPal
