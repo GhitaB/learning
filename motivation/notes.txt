@@ -35,3 +35,5 @@ self-reliance - relying on your own power, not the power of others
   > be proactive
   > make decisions on your own
   > hold yourself accountable
+  
+self-talk -> self-motivation -> performance -> self-talk -> self-motivation -> ...
