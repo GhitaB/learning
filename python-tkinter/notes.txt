@@ -1,0 +1,20 @@
+Python 3.8.6 (default, Sep 25 2020, 09:36:53)
+[GCC 10.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from tkinter import *
+>>> from tkinter import ttk
+>>> root = Tk()
+>>> button = ttk.Button(root, text = "Click Me")
+>>> button.pack()
+>>> button['text']
+'Click Me'
+>>> button['text'] = "Press Me"
+>>> button.config(text = "Push Me")
+>>> button.config()
+{'command': ('command', 'command', 'Command', <bytecode object: ''>, <bytecode object: ''>), 'default': ('default', 'default', 'Default', <index object: 'normal'>, <index object: 'normal'>), 'takefocus': ('takefocus', 'takeFocus', 'TakeFocus', 'ttk::takefocus', 'ttk::takefocus'), 'text': ('text', 'text', 'Text', '', 'Push Me'), 'textvariable': ('textvariable', 'textVariable', 'Variable', '', ''), 'underline': ('underline', 'underline', 'Underline', -1, -1), 'width': ('width', 'width', 'Width', '', ''), 'image': ('image', 'image', 'Image', '', ''), 'compound': ('compound', 'compound', 'Compound', '', ''), 'padding': ('padding', 'padding', 'Pad', '', ''), 'state': ('state', 'state', 'State', <index object: 'normal'>, <index object: 'normal'>), 'cursor': ('cursor', 'cursor', 'Cursor', '', ''), 'style': ('style', 'style', 'Style', '', ''), 'class': ('class', '', '', '', '')}
+>>> str(button)
+'.!button'
+>>> str(root)
+'.'
+>>> ttk.Label(root, text = "Hello, Tkinter!").pack()
+>>>
