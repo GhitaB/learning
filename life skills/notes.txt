@@ -7,3 +7,5 @@ clarify
 organize
 reflect
 engage with tasks
+
+https://gettingthingsdone.com/what-is-gtd/
