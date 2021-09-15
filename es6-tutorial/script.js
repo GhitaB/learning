@@ -210,3 +210,39 @@ const address = {
 
 // Spread Operator ============================================================
 // ----------------------------------------------------------------------------
+const first = [1, 2, 3];
+const second = [4, 5, 6];
+
+// const combined = first.concat(second); // old way
+
+const combined = [...first, ...second];
+
+const combined1 = [...first, 'a', ...second, 'b'];
+
+const clone = [...first];
+console.log(first); // [1, 2, 3]
+console.log(clone); // [1, 2, 3]
+// ----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
