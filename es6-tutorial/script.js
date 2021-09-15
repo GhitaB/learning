@@ -298,3 +298,28 @@ teacher.teach();
 // const newTeacher = new ZTeacher("Nume", "Grad");
 // newTeacher.teach();
 // Solve errors with: https://stackoverflow.com/a/61015812/1929820
+
+
+
+// Named and Default Export ===================================================
+// ----------------------------------------------------------------------------
+/*
+  În teacher.js:
+  export function promote() {} - exportată fiind, poate fi importată în index
+
+  În js și clasele sunt obiecte.
+  export default class Teacher extends Person { - în felul ăsta spunem că
+  Teacher e default thing de exportat din modulul teacher.js.
+  După ce punem default:
+  vom importa așa (fără acolade):
+  import Teacher from ...
+
+  Default -> import ... from '';
+  Named -> import { ... } from '';
+
+  Poate să fie și ambele, și atunci importăm:
+  import Teacher, { promote } from ...
+
+  Exemplu, des folosit în React:
+  import React, { Component } from 'react'; - react e în node modules.
+*/
