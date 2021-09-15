@@ -265,6 +265,7 @@ class CoolPerson {
 
 const person9 = new CoolPerson('John');
 person9.walk();
+// ----------------------------------------------------------------------------
 
 
 
@@ -285,3 +286,15 @@ const teacher = new Teacher('John', 'MSc');
 teacher.walk();
 teacher.teach();
 // ----------------------------------------------------------------------------
+
+
+
+// Modules ====================================================================
+// ----------------------------------------------------------------------------
+// Fiecare clasă într-un fișier separat.
+// Implicit clasele sunt vizibile doar în fișierul în care sunt definite.
+// Ca să fie vizibile trebuie făcute public. Și se face exportându-le.
+// import { ZTeacher } from './teacher';
+// const newTeacher = new ZTeacher("Nume", "Grad");
+// newTeacher.teach();
+// Solve errors with: https://stackoverflow.com/a/61015812/1929820
