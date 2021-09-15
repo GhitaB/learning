@@ -265,3 +265,23 @@ class CoolPerson {
 
 const person9 = new CoolPerson('John');
 person9.walk();
+
+
+
+// Inheritance ================================================================
+// ----------------------------------------------------------------------------
+class Teacher extends CoolPerson {
+  constructor(name, degree) {
+    super(name); // folosim constructorul din clasa părinte, altfel dă eroare
+    this.degree = degree;
+  }
+
+  teach() {
+    console.log('Teach');
+  }
+}
+
+const teacher = new Teacher('John', 'MSc');
+teacher.walk();
+teacher.teach();
+// ----------------------------------------------------------------------------
