@@ -224,25 +224,44 @@ console.log(first); // [1, 2, 3]
 console.log(clone); // [1, 2, 3]
 // ----------------------------------------------------------------------------
 
+// Merge și pentru obiecte:
+const first1 = { name: 'John' };
+const second1 = { job: 'Instructor' };
+
+const combined2 = { ...first1 , ...second1, location: 'Australia' };
+console.log(combined2);
+
+const clone2 = { ...first };
+// ----------------------------------------------------------------------------
 
 
 
+// Classes ====================================================================
+// ----------------------------------------------------------------------------
+// Problema: codul din walk() dacă are un bug trebuie reparat în mai
+// multe locuri
+const person7 = {
+  name: 'John',
+  walk() {
+    console.log("walk");
+  }
+}
 
+const person8 = {
+  name: 'John',
+}
 
+// Soluția: folosim clasă
+// ----------------------------------------------------------------------------
+class CoolPerson {
+  constructor(name) {
+    this.name = name;
+  }
 
+  walk() {
+    console.log("walk");
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const person9 = new CoolPerson('John');
+person9.walk();
